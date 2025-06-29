@@ -4,22 +4,22 @@ import React from 'react';
 const treatments = [
   {
     id: 1,
-    name: 'Hair Loss',
+    name: 'Hair Loss Treatment',
     image: '/treatments/hair-loss.PNG',
   },
   {
     id: 2,
-    name: 'Weight Loss',
+    name: 'Weight Loss Treatment',
     image: '/treatments/weight-loss.PNG',
   },
   {
     id: 3,
-    name: 'Migraines',
+    name: 'Migraines Treatment',
     image: '/treatments/migraines.PNG',
   },
   {
     id: 4,
-    name: 'Gastric',
+    name: 'Gastric Treatment',
     image: '/gastric.PNG',
   },
 ];
@@ -28,7 +28,7 @@ const TopTreatments = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-        Top Treatments
+        Trending Treatments
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {treatments.map((treatment) => (
