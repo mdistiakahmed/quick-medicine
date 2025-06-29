@@ -17,8 +17,8 @@ const Navbar = () => {
                 src="/logo.png" 
                 alt="Quick Medicine Logo"
                 width={240}
-                height={64}
-                className='w-[240px] h-[64px]'
+                height={60}
+                className='w-[240px] h-[60px]'
               />
           </Link>
           
