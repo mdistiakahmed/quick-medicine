@@ -4,22 +4,22 @@ import React from 'react';
 const treatments = [
   {
     id: 1,
-    name: 'Hair Loss Treatment',
+    name: 'চুল পড়ার চিকিৎসা',
     image: '/treatments/hair-loss.PNG',
   },
   {
     id: 2,
-    name: 'Weight Loss Treatment',
+    name: 'ওজন কমানোর চিকিৎসা',
     image: '/treatments/weight-loss.PNG',
   },
   {
     id: 3,
-    name: 'Migraines Treatment',
+    name: 'মিগ্রেনের/মাথা ব্যাথার চিকিৎসা',
     image: '/treatments/migraines.PNG',
   },
   {
     id: 4,
-    name: 'Gastric Treatment',
+    name: 'গাস্ট্রিকের চিকিৎসা',
     image: '/gastric.PNG',
   },
 ];

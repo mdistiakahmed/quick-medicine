@@ -31,7 +31,9 @@ export default function RootLayout({
       >
         <div>
             <Navbar />
-            {children}
+            <div className="container mx-auto">
+              {children}
+            </div>
             <Footer />
         </div>
         
