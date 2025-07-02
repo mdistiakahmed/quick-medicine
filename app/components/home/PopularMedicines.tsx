@@ -14,7 +14,7 @@ const PopularMedicines = () => {
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-          জনপ্রিয় ওষুধ
+          Popular Medicines
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {medicines.map((medicine) => (
@@ -33,7 +33,7 @@ const PopularMedicines = () => {
                   href={`/medicines/${medicine.id}`}
                   className="text-sm text-blue-600 hover:underline"
                 >
-                  বিস্তারিত
+                  Read More
                 </Link>
               </div>
             </div>

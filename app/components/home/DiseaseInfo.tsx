@@ -21,7 +21,7 @@ const DiseaseInfo = () => {
     <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-          সাধারণ রোগ ও চিকিৎসা
+          Common Diseases & Treatments
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {diseases.map((disease) => (
@@ -62,7 +62,7 @@ const DiseaseInfo = () => {
                 href={`/diseases/${disease.id}`}
                 className="text-blue-600 hover:underline inline-flex items-center text-sm"
               >
-                বিস্তারিত জানুন
+                Read More
                 <svg
                   className="w-4 h-4 ml-1"
                   fill="none"
@@ -85,7 +85,7 @@ const DiseaseInfo = () => {
             href="/diseases"
             className="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors"
           >
-            সকল রোগের তালিকা
+            See All Diseases
           </Link>
         </div>
       </div>

@@ -24,7 +24,7 @@ const HealthTips = () => {
     <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
-          স্বাস্থ্য পরামর্শ
+          Health Tips
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {tips.map((tip) => (
@@ -46,7 +46,7 @@ const HealthTips = () => {
                     href={`/health-tips/${tip.id}`}
                     className="text-blue-600 hover:underline inline-flex items-center"
                   >
-                    আরও পড়ুন
+                    Read More
                     <svg
                       className="w-4 h-4 ml-1"
                       fill="none"
