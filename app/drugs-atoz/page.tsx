@@ -12,13 +12,8 @@ async function getDrugs(): Promise<Product[]> {
   return products;
 }
 
-type PageProps = {
-  searchParams?: {
-    page?: string;
-  };
-};
 
-export default async function DrugsAToZ({ searchParams }: PageProps) {
+export default async function DrugsAToZ({ searchParams }: any) {
   const pageParam = (await searchParams)?.page;
   const currentPage = pageParam && !Array.isArray(pageParam) ? parseInt(pageParam) : 1;
 

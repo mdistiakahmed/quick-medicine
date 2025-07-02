@@ -9,7 +9,7 @@ async function getDrug(id: string): Promise<Product | undefined> {
   return products.find(drug => drug.id === id);
 }
 
-export default async function DrugDetailPage({ params }: { params: { id: string } }) {
+export default async function DrugDetailPage({ params }: any) {
   const drug = await getDrug((await params).id);
 
   if (!drug) {
